@@ -1,0 +1,205 @@
+/* poppins Google Font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ----------------\ 
+Header CSS start 
+\---------------- */
+
+.menu {
+    background-color: #2d25a0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 42px;
+    margin-left: 140px;
+}
+
+
+.menu ul li {
+    margin-right: 36px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.menu button {
+    margin-top: 32px;
+    margin-right: 140px;
+    padding: 10px 24px;
+    border: none;
+    background-color: #E02C6D;
+    border-radius: 5px;
+}
+
+
+.menu button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.fa-sign-in-alt {
+    margin-right: 8px;
+    height: 16px;
+}
+
+
+.menu button:hover {
+    background-color: #ff0000;
+    transition: 1s ease-in-out;
+}
+
+/* ----------------\ 
+Header CSS end
+\---------------- */
+
+
+
+/* ----------------\ 
+conteiner CSS start 
+\---------------- */
+
+.conteiner {
+    background-color: #2d25a0;
+}
+
+
+.contect-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+.text h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+
+.text button {
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: linear-gradient(to right, #f5577c, #d64a31);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.288);
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.text button:hover {
+    transform: translateX(50px);
+}
+
+
+.fa-external-link-alt {
+    margin-right: 8px;
+}
+
+.image {
+    transition: all 0.80s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.image img {
+    width: 540px;
+    height: 440px;
+}
+
+.image:hover {
+    transform: translateX(-30px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 0, 0.11);
+
+}
+
+
+
+/* ----------------\ 
+conteiner CSS end 
+\---------------- */
+
+
+
+
+/* --------------------\
+player blog information CSS start  
+\ ------------------------ */
+
+
+.player-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+
+
+.article-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 27px;
+    column-gap: 30px;
+        
+}
+
+.blog {
+    width: 330px;
+    height: 470px;
+    padding: 15px;
+    box-shadow: 10px 10px 15px rgba(12, 12, 44, 0.192);
+}
+
+.blog img {
+    width: 300px;
+    height: 256px;
+    margin-bottom: 16px;
+}
+
+.blog h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.blog p {
+    font-size: 16px;
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+/* --------------------\
+player blog information CSS END  
+\ ------------------------ */
