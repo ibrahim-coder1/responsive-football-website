@@ -179,22 +179,26 @@ player blog information CSS start
 .blog {
     width: 330px;
     height: 470px;
-    padding: 15px;
     box-shadow: 10px 10px 15px rgba(12, 12, 44, 0.192);
+    border-radius: 5px;
 }
 
-.blog img {
+.content-area {
+    padding: 15px;
+}
+
+.content-area img {
     width: 300px;
     height: 256px;
     margin-bottom: 16px;
 }
 
-.blog h2 {
+.content-area h2 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-.blog p {
+.content-area p {
     font-size: 16px;
     color: #6C6C6C;
     text-align: justify;
@@ -203,3 +207,113 @@ player blog information CSS start
 /* --------------------\
 player blog information CSS END  
 \ ------------------------ */
+
+
+
+/* --------------------\
+Video game Area CSS start  
+\ ------------------------ */
+
+
+.video-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 140px 50px 140px;
+}
+
+
+.text-area {
+    margin-left: 40px;
+    
+}
+
+.text-area h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+/* --------------------\
+Video game Area CSS END  
+\ ------------------------ */
+
+
+
+/* --------------------\
+Our Media Partner CSS strat  
+\ ------------------------ */
+
+
+
+.media-partner {
+    text-align: center;
+    margin: 0 140px 50px 140px;
+
+}
+
+.company {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 20px;
+}
+
+.media-partner h1 {
+    color: royalblue;
+    font-size: 28px;
+    margin: 25px;
+
+}
+.comany-name img {
+    width: 100px;
+    height: 100px;
+} 
+
+
+/* --------------------\
+Our Media Partner CSS END 
+\ ------------------------ */
+
+
+
+/* --------------------\
+Footer CSS start  
+\ ------------------------ */
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-content img {
+    width: 483px;
+    height: 110px;
+}
+
+.icon {
+    align-items: center;
+    margin-left: 14px;
+}
+
+.icon i {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* --------------------\
+Footer CSS end  
+\ ------------------------ */
+
+
+
+/* ---------- Resposive Code ---------- */
+
+@media screen {
+    
+}
