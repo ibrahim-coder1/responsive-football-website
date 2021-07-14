@@ -84,6 +84,7 @@ conteiner CSS start
 \---------------- */
 
 .conteiner {
+    width: 100%;
     background-color: #2d25a0;
 }
 
@@ -97,6 +98,9 @@ conteiner CSS start
     padding-bottom: 50px;
 }
 
+.text {
+    width: 50%;
+}
 
 .text h1 {
     font-size: 60px;
@@ -129,6 +133,7 @@ conteiner CSS start
 }
 
 .image {
+    width: 50%;
     transition: all 0.80s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -164,7 +169,7 @@ player blog information CSS start
     display: flex;
     justify-content: center;
     margin-top: 70px;
-    margin-bottom: 165px;
+    margin-bottom: 100px;
 }
 
 
@@ -216,22 +221,34 @@ Video game Area CSS start
 
 
 .video-area {
+    margin: 0 140px 50px 140px;  
+}
+
+.video-info {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0 140px 50px 140px;
-}
-
-
-.text-area {
-    margin-left: 40px;
     
 }
+
+.video {
+    width: 50%;
+}
+
+.text-area {
+    width: 50%;
+}
+
 
 .text-area h2 {
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+.text-area p {
     text-align: justify;
+    font-size: 16px;
+
 }
 
 
@@ -314,6 +331,112 @@ Footer CSS end
 
 /* ---------- Resposive Code ---------- */
 
-@media screen {
+@media only screen and (max-width: 688px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
     
+    .menu {
+        display: none;
+    }
+
+    .contect-area {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .text h1 {
+        font-size: 40px;
+
+    }
+
+    .text {
+        margin-bottom: 10px;
+    }
+
+    .text button {
+        font-size: 16px;
+
+    }
+
+    .image img {
+        margin-top: 50px;
+        width: 270px;
+        height: 220px;
+    }
+
+    /* conteiner area  */
+
+    .player-info {
+        margin-bottom: 10px;
+    }
+
+    .article-blog {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /* Video section  */
+
+    .video-area {
+        margin: 50px 0 0 0;
+        padding: 0;
+        
+    }
+
+    .video-info {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+                
+    }
+
+    iframe {
+        width: 200px;
+        height: auto;
+    }
+
+    .text-area h2 {
+        font-size: 20px;
+    }
+
+
+    /* media partner area  */
+
+    .media-partner {
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    .company {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* Footer area  */
+
+    .footer-content img {
+        width: 283px;
+        height: 64px;
+        margin-top: 50px;
+    }
+
+
 }
+
+/* CSS END  */
